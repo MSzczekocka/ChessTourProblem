@@ -1,6 +1,7 @@
 #ifndef CHESSKNIGHT_MOVEMENTCHECKER_H
 #define CHESSKNIGHT_MOVEMENTCHECKER_H
-bool knightMove(int **chessboard, int row, int col, int move);
+#define N 8
 
+int findPath();
 
 #endif //CHESSKNIGHT_MOVEMENTCHECKER_H
